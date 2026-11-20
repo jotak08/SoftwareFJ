@@ -7,7 +7,7 @@
 
   ### Sistema de Gestión de Clientes, Servicios y Reservas
 
-  **Proyecto académico — Ingeniería de Sistemas**
+  **Proyecto académico — Ingeniería de Sistemas-Curso Programación**
 
   <p>
     <img src="https://img.shields.io/badge/Lenguaje-Python-blue?logo=python&logoColor=white" alt="Python">
@@ -35,18 +35,6 @@ La aplicación permite gestionar clientes, administrar diferentes tipos de servi
 Durante su desarrollo se aplicaron conceptos como encapsulamiento, herencia, abstracción, polimorfismo, modularidad, validación de datos y manejo de excepciones.
 
 ## 🎓 2. Contexto institucional y académico
-
-### Universidad Nacional Abierta y a Distancia — UNAD
-
-La Universidad Nacional Abierta y a Distancia (UNAD) es una institución de educación superior colombiana que desarrolla su propuesta educativa mediante modalidades abierta, a distancia y ambientes virtuales de aprendizaje.
-
-Su modelo educativo promueve el aprendizaje autónomo, significativo y colaborativo, apoyándose en las tecnologías de la información y la comunicación para facilitar el acceso a la educación y la formación integral de sus estudiantes.
-
-### Ingeniería de Sistemas
-
-El programa de Ingeniería de Sistemas de la UNAD busca formar profesionales capaces de analizar, diseñar, implementar y gestionar soluciones tecnológicas que respondan a necesidades de diferentes contextos y organizaciones.
-
-Dentro de este proceso formativo, la programación constituye una base fundamental para desarrollar el pensamiento lógico, resolver problemas y construir aplicaciones de software.
 
 ### Curso de Programación
 
@@ -235,13 +223,10 @@ Estas pruebas permiten comprobar que el sistema responde adecuadamente tanto ant
 ## 📚 10. Referencias institucionales
 
 - Universidad Nacional Abierta y a Distancia — UNAD. [Portal institucional](https://www.unad.edu.co/).
-- UNAD. [Misión y visión institucional](https://informacion.unad.edu.co/acerca-de-la-unad/mision-y-vision).
-- UNAD. [Programa de Ingeniería de Sistemas](https://estudios.unad.edu.co/ingenieria-de-sistemas).
-- UNAD. [Plan de estudios de Ingeniería de Sistemas](https://estudios.unad.edu.co/plan-de-estudios-ingenieria-de-sistemas).
 
 ## 👨‍💻 11. Autor y proyecto académico
 
-**Autor:** jotak08
+**Autor:** Jose Luis Ramirez
 
 **Programa:** Ingeniería de Sistemas
 
@@ -261,7 +246,7 @@ Estas pruebas permiten comprobar que el sistema responde adecuadamente tanto ant
 
 **Ingeniería de Sistemas**
 
-*Aprender, construir y transformar mediante el conocimiento y la tecnología.*
+
 
 **SOFTWARE FJ · Proyecto académico**
 
