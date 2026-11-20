@@ -1,58 +1,128 @@
  <div align="center">
+  <img src="https://frontapps.unad.edu.co/logo-unad-acreditacion-min.png" alt="Logo oficial de la Universidad Nacional Abierta y a Distancia - UNAD" width="430">
 
-# 💻 SOFTWARE FJ
+  <br>
 
-### Sistema de Gestión de Clientes, Servicios y Reservas
+  # SOFTWARE FJ
 
-**Proyecto académico desarrollado en Python**
+  ### Sistema de Gestión de Clientes, Servicios y Reservas
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Paradigma-POO-6f42c1" alt="POO">
-  <img src="https://img.shields.io/badge/Estado-En%20desarrollo-orange" alt="Estado">
-</p>
+  **Proyecto académico — Ingeniería de Sistemas**
 
+  <p>
+    <img src="https://img.shields.io/badge/Lenguaje-Python-blue?logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/Programación-Orientada%20a%20Objetos-6f42c1" alt="POO">
+    <img src="https://img.shields.io/badge/Universidad-UNAD-green" alt="UNAD">
+    <img src="https://img.shields.io/badge/Estado-Desarrollado-success" alt="Estado">
+  </p>
+
+  <p>
+    <a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia</a> ·
+    <a href="https://estudios.unad.edu.co/ingenieria-de-sistemas">Ingeniería de Sistemas</a>
+  </p>
 </div>
 
 ---
 
-## 📌 Descripción
+## 📖 1. Introducción
 
-**Software FJ** es una aplicación de consola desarrollada en Python que permite gestionar clientes, administrar diferentes tipos de servicios y controlar el ciclo de vida de las reservas.
+**Software FJ** es un proyecto académico desarrollado en Python como parte del proceso de aprendizaje del curso **Programación (213023)**, correspondiente al tercer período del programa de Ingeniería de Sistemas de la Universidad Nacional Abierta y a Distancia (UNAD).
 
-El proyecto aplica los principios fundamentales de la **Programación Orientada a Objetos (POO)**, mediante clases, objetos, encapsulamiento, herencia, abstracción y polimorfismo.
+El proyecto surge como un ejercicio práctico orientado a aplicar los fundamentos de la programación y, especialmente, los principios de la **Programación Orientada a Objetos (POO)** en el desarrollo de una solución informática.
 
-## 🎯 Objetivos
+La aplicación permite gestionar clientes, administrar diferentes tipos de servicios y controlar las reservas mediante operaciones de registro, consulta, confirmación, cancelación y procesamiento.
 
-- Implementar una estructura de software modular y organizada.
-- Aplicar los principios de la programación orientada a objetos.
-- Validar la información de clientes y servicios.
-- Gestionar reservas mediante diferentes estados.
-- Controlar errores mediante excepciones personalizadas.
-- Registrar eventos del sistema mediante logs.
+Durante su desarrollo se aplicaron conceptos como encapsulamiento, herencia, abstracción, polimorfismo, modularidad, validación de datos y manejo de excepciones.
 
-## ⚙️ Funcionalidades
+## 🎓 2. Contexto institucional y académico
 
-| Módulo | Descripción |
+### Universidad Nacional Abierta y a Distancia — UNAD
+
+La Universidad Nacional Abierta y a Distancia (UNAD) es una institución de educación superior colombiana que desarrolla su propuesta educativa mediante modalidades abierta, a distancia y ambientes virtuales de aprendizaje.
+
+Su modelo educativo promueve el aprendizaje autónomo, significativo y colaborativo, apoyándose en las tecnologías de la información y la comunicación para facilitar el acceso a la educación y la formación integral de sus estudiantes.
+
+### Ingeniería de Sistemas
+
+El programa de Ingeniería de Sistemas de la UNAD busca formar profesionales capaces de analizar, diseñar, implementar y gestionar soluciones tecnológicas que respondan a necesidades de diferentes contextos y organizaciones.
+
+Dentro de este proceso formativo, la programación constituye una base fundamental para desarrollar el pensamiento lógico, resolver problemas y construir aplicaciones de software.
+
+### Curso de Programación
+
+Este proyecto se desarrolla tomando como fundamento los conocimientos trabajados en el curso **Programación (código 213023)**.
+
+A través de Software FJ se busca llevar los conceptos de programación a un escenario práctico, organizando una solución mediante clases, objetos y módulos que representan entidades y procesos de un sistema de gestión.
+
+El desarrollo permite fortalecer habilidades como:
+
+- Análisis y solución de problemas mediante código.
+- Diseño de clases y objetos.
+- Aplicación de los principios de la programación orientada a objetos.
+- Organización y modularización del software.
+- Validación de información y control de errores.
+- Pruebas de funcionamiento y depuración.
+
+## 🎯 3. Objetivos del proyecto
+
+### Objetivo general
+
+Desarrollar una aplicación de consola en Python para gestionar clientes, servicios y reservas, aplicando los fundamentos de la programación orientada a objetos y buenas prácticas de organización del código.
+
+### Objetivos específicos
+
+- Implementar clases que representen las entidades principales del sistema.
+- Aplicar encapsulamiento y validaciones para proteger la información.
+- Utilizar herencia y abstracción para estructurar los diferentes tipos de servicios.
+- Implementar polimorfismo para calcular y describir los servicios.
+- Administrar el ciclo de vida de las reservas.
+- Crear excepciones personalizadas para controlar situaciones de error.
+- Implementar registros de eventos mediante el módulo de logging.
+- Verificar el comportamiento del sistema mediante pruebas de operaciones válidas e inválidas.
+
+## ⚙️ 4. Descripción y funcionalidades
+
+Software FJ permite realizar las siguientes operaciones:
+
+| Módulo | Funcionalidad |
 |---|---|
-| 👤 Clientes | Registro y validación de información de clientes. |
-| 🏢 Salas | Gestión de reservas de salas y cálculo de costos. |
-| 💻 Equipos | Alquiler de equipos según cantidad y duración. |
-| 📚 Asesorías | Administración de servicios de asesoría. |
+| 👤 Clientes | Creación y validación de información de clientes. |
+| 🏢 Reservas de salas | Gestión de salas, capacidad y cálculo de costos. |
+| 💻 Alquiler de equipos | Administración de cantidades, duración y tarifas. |
+| 📚 Asesorías | Gestión de servicios de asesoría y cálculo de costos. |
 | 📅 Reservas | Registro, búsqueda, confirmación, cancelación y procesamiento. |
-| ⚠️ Excepciones | Manejo de errores personalizados y controlados. |
+| ⚠️ Excepciones | Control de errores mediante excepciones personalizadas. |
 | 📝 Logs | Registro de eventos y errores del sistema. |
 
-## 🧠 Conceptos de programación aplicados
+## 🧠 5. Conceptos de programación aplicados
 
-- **Encapsulamiento:** protección y validación de atributos.
-- **Herencia:** reutilización de características entre clases.
-- **Abstracción:** definición de clases y métodos abstractos.
-- **Polimorfismo:** implementación de comportamientos específicos en diferentes servicios.
-- **Excepciones:** control de situaciones inesperadas.
-- **Modularidad:** separación del código por responsabilidades.
+El desarrollo del proyecto integra los siguientes conceptos:
 
-## 📂 Estructura del proyecto
+### Programación Orientada a Objetos
+
+- **Clases y objetos:** representación de clientes, servicios y reservas.
+- **Encapsulamiento:** protección de atributos mediante propiedades y validaciones.
+- **Herencia:** reutilización de características entre clases relacionadas.
+- **Abstracción:** definición de estructuras generales mediante clases abstractas.
+- **Polimorfismo:** implementación de comportamientos específicos para cada tipo de servicio.
+
+### Manejo de errores y excepciones
+
+- Creación de excepciones personalizadas.
+- Uso de `try`, `except`, `else` y `finally`.
+- Encadenamiento de excepciones.
+- Control de errores sin interrumpir innecesariamente la ejecución del programa.
+
+### Organización y buenas prácticas
+
+- Separación de responsabilidades mediante módulos y paquetes.
+- Validación de parámetros.
+- Registro de eventos mediante `logging`.
+- Pruebas de escenarios correctos e incorrectos.
+
+## 🏗️ 6. Arquitectura y estructura del proyecto
+
+El proyecto está organizado en diferentes paquetes para separar las responsabilidades de cada componente.
 
 ```text
 SoftwareFJ/
@@ -80,28 +150,41 @@ SoftwareFJ/
 ├── pruebas_excepciones.py
 ├── pruebas_operaciones.py
 ├── prueba.txt
+├── .gitignore
 └── README.md
 ```
 
-## 🚀 Instalación y ejecución
+### Descripción de los paquetes
+
+- **modelos:** contiene las clases principales del sistema, como clientes, entidades y servicios.
+- **gestion:** contiene la lógica para administrar las reservas.
+- **excepciones:** define los errores personalizados del proyecto.
+- **configuracion.py:** configura el registro de eventos mediante logging.
+- **main.py:** punto de entrada y ejecución principal de la aplicación.
+- **pruebas_operaciones.py:** verifica las operaciones de gestión de reservas.
+- **pruebas_excepciones.py:** demuestra el manejo de excepciones y errores.
+
+## 🚀 7. Instalación y ejecución
+
+### Requisitos
+
+- Python 3 instalado.
+- Git.
+- Un editor de código, preferiblemente Visual Studio Code.
 
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/USUARIO/SoftwareFJ.git
+git clone https://github.com/jotak08/SoftwareFJ.git
 ```
 
-Reemplaza `USUARIO` por tu nombre de usuario de GitHub.
-
-### 2. Entrar en la carpeta
+### 2. Ingresar al directorio
 
 ```bash
 cd SoftwareFJ
 ```
 
-### 3. Ejecutar el programa
-
-Asegúrate de tener Python instalado y ejecuta:
+### 3. Ejecutar la aplicación
 
 ```bash
 python main.py
@@ -121,27 +204,65 @@ Pruebas de excepciones:
 python pruebas_excepciones.py
 ```
 
-## 🛠️ Tecnologías utilizadas
+## 🧪 8. Pruebas del sistema
 
-- **Lenguaje:** Python.
-- **Control de versiones:** Git.
-- **Repositorio remoto:** GitHub.
-- **Entorno de desarrollo:** Visual Studio Code.
+Se desarrollaron pruebas para verificar el comportamiento del sistema en diferentes escenarios.
 
-## 🎓 Contexto académico
+Entre las operaciones verificadas se encuentran:
 
-Proyecto desarrollado como parte de la formación académica del programa de **Ingeniería de Sistemas de la Universidad Nacional Abierta y a Distancia (UNAD)**, en el área de programación.
+- Registro de reservas válidas.
+- Búsqueda de reservas existentes.
+- Confirmación de reservas.
+- Prevención de confirmaciones duplicadas.
+- Procesamiento de reservas.
+- Control de reservas canceladas.
+- Búsqueda de identificadores inexistentes.
+- Validación de identificadores duplicados.
+- Manejo de excepciones.
+- Continuidad de ejecución después de errores controlados.
 
-## 👨‍💻 Autor
+Estas pruebas permiten comprobar que el sistema responde adecuadamente tanto ante operaciones correctas como ante situaciones no permitidas.
 
-Estudiante de Ingeniería de Sistemas — UNAD.
+## 🛠️ 9. Tecnologías y herramientas
+
+| Tecnología | Uso |
+|---|---|
+| Python | Lenguaje de programación. |
+| Visual Studio Code | Entorno de desarrollo. |
+| Git | Control de versiones. |
+| GitHub | Almacenamiento y publicación del repositorio. |
+
+## 📚 10. Referencias institucionales
+
+- Universidad Nacional Abierta y a Distancia — UNAD. [Portal institucional](https://www.unad.edu.co/).
+- UNAD. [Misión y visión institucional](https://informacion.unad.edu.co/acerca-de-la-unad/mision-y-vision).
+- UNAD. [Programa de Ingeniería de Sistemas](https://estudios.unad.edu.co/ingenieria-de-sistemas).
+- UNAD. [Plan de estudios de Ingeniería de Sistemas](https://estudios.unad.edu.co/plan-de-estudios-ingenieria-de-sistemas).
+
+## 👨‍💻 11. Autor y proyecto académico
+
+**Autor:** jotak08
+
+**Programa:** Ingeniería de Sistemas
+
+**Institución:** Universidad Nacional Abierta y a Distancia — UNAD
+
+**Curso:** Programación — Código 213023
+
+**Proyecto:** Software FJ
+
+**Repositorio:** [github.com/jotak08/SoftwareFJ](https://github.com/jotak08/SoftwareFJ)
 
 ---
 
 <div align="center">
 
-**SOFTWARE FJ**
+### UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA — UNAD
 
-*Aprendiendo, construyendo y mejorando mediante el desarrollo de software.*
+**Ingeniería de Sistemas**
+
+*Aprender, construir y transformar mediante el conocimiento y la tecnología.*
+
+**SOFTWARE FJ · Proyecto académico**
 
 </div>
