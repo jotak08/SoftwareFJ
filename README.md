@@ -16,10 +16,7 @@
     <img src="https://img.shields.io/badge/Estado-Desarrollado-success" alt="Estado">
   </p>
 
-  <p>
-    <a href="https://www.unad.edu.co/">Universidad Nacional Abierta y a Distancia</a> ·
-    <a href="https://estudios.unad.edu.co/ingenieria-de-sistemas">Ingeniería de Sistemas</a>
-  </p>
+  
 </div>
 
 ---
